@@ -1,0 +1,13 @@
+# syntax: print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+print("hello,", sep = " ", end = "\n")
+
+# The input() function allows user input.
+# declare a variable to save the user input
+"""
+this is a multi-line comment
+"""
+# this is a single line comment
+# functions e.g. print()
+# arguments
+# side effects e.g. output of print()
+# bugs aka mistakes in your code e.g. missing a closing parenthesis ")"

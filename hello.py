@@ -3,7 +3,7 @@
 name = input("What's your name? ").strip().title()
 
 # Split user's name into first name and last name
-first, last = name.split(" ")
+# first, last = name.split(" ")
 
 # Combining methods: remove whitespace and capitalize first letter of every word
 # name = name.strip().title()
@@ -18,8 +18,8 @@ first, last = name.split(" ")
 # name = name.title()
 
 # Say hello to user (multiple ways to do it)
-print(f"hello, {first}")
-# print(f"hello, {name}")
+# print(f"hello, {first}")
+print(f"hello, {name}")
 # print("hello,", name)
 # print("hello, " + name)
 # print("hello,")
