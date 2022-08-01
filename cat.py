@@ -24,3 +24,15 @@ i = 0
 while i < 3:
     print("Meow")
     i += 1
+
+# Introduction of for loop and list [] data type
+for i in [0, 1, 2]:
+    print("Meow")
+
+# use the function range to replace the list
+for i in range(3):
+    print("Meow")
+
+# use _ as special identifier in Python without a variable name that stores the last result 
+for _ in range(3):
+    print("Meow")
