@@ -39,9 +39,9 @@
 
 
 # make it into a function using def so that it can be used back again
-def main():
-    x = get_int()
-    print(f"x is {x}")
+# def main():
+#     x = get_int()
+#     print(f"x is {x}")
 
 # def get_int():
 #     while True:
@@ -62,10 +62,23 @@ def main():
 
 
 # how to handle an exception/error in python but want to silently ignore it, we can use 'pass'
-def get_int():
+# def get_int():
+#     while True:
+#         try:
+#             return int(input("What's x? "))
+#         except ValueError:
+#             pass
+
+
+# tighten up the code even more
+def main():
+    x = get_int("What's x? ")
+    print(f"x is {x}")
+
+def get_int(prompt):
     while True:
         try:
-            return int(input("What's x? "))
+            return int(input(prompt))
         except ValueError:
             pass
 
